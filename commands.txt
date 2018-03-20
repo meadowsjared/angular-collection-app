@@ -9,3 +9,6 @@ ng g c <myname> -is --spec false
 
 //generate a component (don't make a subfolder)
 ng g c <myname> --flat
+
+cd /var/lib/jenkins/workspace/angular-collection-app
+ng serve --host=0.0.0.0 --target=production
