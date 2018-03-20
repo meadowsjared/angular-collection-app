@@ -2,13 +2,3 @@
 html, body {
 	padding: 30px;
 }
-.list-group-item {
-	width: 100%;
-}
-div.col-xs-12 {
-	width: 100%;
-}
-span.glyphicon{
-	float: right;
-	font-size: 24px;
-}

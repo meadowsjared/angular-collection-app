@@ -1,0 +1,17 @@
+.active {
+	color: #fff;
+	background-color: #a0b7f7;
+	border-color: #a0b7f7;
+}
+.active:hover {
+	color: #337ab7;
+	background-color: #c25151;
+	border-color: #a0b7f7;
+	border:1px solid;
+}
+.header-button {
+	border:1px solid transparent;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #d7e2ff;
+}
