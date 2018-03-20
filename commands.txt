@@ -6,3 +6,6 @@ ng g c <myname>
 
 //generate a component (without testing and spec file)
 ng g c <myname> -is --spec false
+
+//generate a component (don't make a subfolder)
+ng g c <myname> --flat
