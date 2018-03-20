@@ -8,5 +8,20 @@ export class CollectableService {
 		{ description: 'A box with all sold Zunes', type: 'Garbage' }
 	]
 
+	private collection: Collectable[] = [];
+
 	public getCollectables = () => (this.collectables)
+
+	public getCollection = () => (this.collection)
+
+	public addToCollection(item: Collectable) {
+		if (this.collection.indexOf(item) !== -1) {
+			return
+		}
+		this.collection.push(item)
+	}
+
+	public removeFromCollection(item: Collectable) {
+		this.collection.splice(this.collection.indexOf(item), 1)
+	}
 }
