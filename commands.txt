@@ -1,5 +1,5 @@
 //create a new angular app
-ng create <appname>
+ng new <appname>
 
 //start the dev server
 ng serve
